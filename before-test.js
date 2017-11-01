@@ -3,7 +3,7 @@ describe("abc", function() {
 });
 
 describe("def", function() {
-  beforeAll(() => console.log("Ran beforeAll for def"));
+  beforeAll(() => fail("Ran beforeAll for def"));
   it("does not run def", function() {
     fail("ran def");
   })
