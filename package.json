@@ -1,0 +1,16 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "jest": {
+    "testRegex": ".*-test.js",
+    "testEnvironment": "node"
+  },
+  "scripts": {
+    "test": "jest -t abc"
+  },
+  "dependencies": {
+    "jest": "^21.2.1"
+  }
+}
